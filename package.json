@@ -1,0 +1,6 @@
+{
+  "name":"rj-top-up","version":"1.1.0","private":true,
+  "description":"RJ TOP UP multi-app top-up website and Android-ready starter",
+  "scripts":{"start":"node server.js"},
+  "dependencies":{"bcryptjs":"^2.4.3","better-sqlite3":"^11.8.1","express":"^4.21.2","express-rate-limit":"^7.5.0","helmet":"^8.0.0"}
+}
