@@ -1,0 +1,14 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111827"><title>RJ TOP UP</title><link rel="manifest" href="/manifest.json"><link rel="stylesheet" href="/style.css"></head><body>
+<header><div class="brand">RJ TOP UP</div><small>GAMES & APPS TOP-UP STORE</small></header><main>
+<section class="hero"><h1>গেম ও অ্যাপ টপ-আপ</h1><p>এক জায়গায় বিভিন্ন গেম ও অ্যাপের টপ-আপ অর্ডার করুন</p></section>
+<section class="panel"><h2>নতুন অর্ডার</h2><form id="orderForm">
+<label>গেম / অ্যাপ নির্বাচন<select id="app" required></select></label>
+<label>প্যাকেজ নির্বাচন<select id="package" required></select></label>
+<div id="priceNote" class="notice"></div>
+<label id="identifierLabel">User ID<input id="identifier" required placeholder="আপনার User ID"></label>
+<label>পেমেন্ট মাধ্যম<select id="method"><option>বিকাশ</option><option>নগদ</option></select></label><div id="payInfo" class="notice"></div>
+<label>যে নম্বর থেকে টাকা পাঠিয়েছেন<input id="sender" inputmode="tel" placeholder="01XXXXXXXXX" required></label>
+<label>Transaction ID<input id="trx" placeholder="Transaction ID" required></label>
+<button id="submitBtn" type="submit">অর্ডার সাবমিট করুন</button><p id="result" role="status"></p></form></section>
+<section class="panel"><h2>অর্ডার ট্র্যাকিং</h2><form id="trackForm"><label>অর্ডার নম্বর<input id="trackId" required placeholder="RJ অর্ডার নম্বর"></label><button>স্ট্যাটাস দেখুন</button><p id="trackResult"></p></form></section>
+<section class="panel"><h2>অ্যাডমিন</h2><a href="/admin.html">Admin Panel Login</a></section></main><footer>© RJ TOP UP</footer><script src="/app.js"></script></body></html>
